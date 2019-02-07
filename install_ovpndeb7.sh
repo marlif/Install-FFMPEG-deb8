@@ -106,7 +106,7 @@ service dropbear restart
 # install squid3
 cd
 apt-get -y install squid3
-wget -O /etc/squid3/squid.conf "http://evira.us/squid3.conf"
+wget -O /etc/squid3/squid.conf "https://github.com/marlif/ovpndeb7/squid3.conf"
 sed -i $MYIP2 /etc/squid3/squid.conf;
 service squid3 restart
 
