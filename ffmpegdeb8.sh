@@ -10,7 +10,7 @@ cd
 apt-get install apache2 php5 libapache2-mod-php5 php5-cli curl libcurl3 php5-curl
 
 # set repo
-wget -O /etc/apt/sources.list.d/deb-multimedia.org.list "http://repo.ajurna.net/deb-multimedia.list.debian8"
+wget -O /etc/apt/sources.list.d/deb-multimedia.org.list "https://raw.githubusercontent.com/marlif/Install-FFMPEG-deb8/master/deb-multimedia.list.debian8"
 
 # install multimedia keyring
 apt-get update
